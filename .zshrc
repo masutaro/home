@@ -174,3 +174,5 @@ setopt complete_aliases
 export PATH=$PATH:/applications/android-sdk-macosx/platform-tools
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 export PERL5LIB=/Library/Perl/5.12
+
+alias javac="javac -J-Dfile.encoding=UTF8"
