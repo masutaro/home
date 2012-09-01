@@ -3,8 +3,6 @@ PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/bin:/opt/
 ###############################################
 # キーバインド                                #
 ###############################################
-# viライクキーバインド
-#bindkey -v
 # Emacsライクキーバインド
 bindkey -e
 
@@ -13,7 +11,7 @@ bindkey -e
 ###############################################
 # 標準の補完設定
 autoload -U compinit
-compinit
+compinit 
 
 # ディレクトリ名を入力するだけでカレントディレクトリを変更
 setopt auto_cd
