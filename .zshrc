@@ -76,16 +76,16 @@ setopt pushd_ignore_dups
 # 上2行は Ctrl-v を押下した後、希望のキーを押下
 # 下2行は「エスケープ」の後にキーの端末コードを入力
 #autoload history-search-end
-#zle -N history-beginning-search-backward-end history-search-end
-#zle -N history-beginning-search-forward-end history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
 #bindkey "OA" history-beginning-search-backward-end
 #bindkey "OB" history-beginning-search-forward-end
 #bindkey "[A" history-beginning-search-backward-end
 #bindkey "[B" history-beginning-search-forward-end
 # 複数行コマンドの場合、上記の設定だと少々不都合
 # tcshの様にする場合は以下のようにする
-#bindkey "^P" history-beginning-search-backward-end
-#bindkey "^N" history-beginning-search-forward-end
+bindkey "^P" history-beginning-search-backward-end
+bindkey "^N" history-beginning-search-forward-end
 
 # インクリメンタルサーチの設定
 bindkey "^R" history-incremental-search-backward
