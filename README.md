@@ -9,5 +9,5 @@
 
 Kotaro Masuda
 
-* [Blog]: http://masutaro.jp/
-* [Find Job !]: http://www.find-job.net/
+* [Blog](http://masutaro.jp/)
+* [Find Job !](http://www.find-job.net/)
